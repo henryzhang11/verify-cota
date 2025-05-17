@@ -13,7 +13,8 @@ A modular pipeline for loading math problems, generating and verifying solutions
   - [1. Finding Incorrect Solutions](#1-finding-incorrect-solutions)  
   - [2. Finding First Mistake in a Solution](#2-finding-first-mistake-in-a-solution)  
   - [3. Preparing Baseline Prompts](#3-preparing-baseline-prompts)  
-- [Module Details](#module-details)  
+- [Module Details](#module-details)
+  - [`paper.pdf`]
   - [`dataloader.py`](#dataloaderpy)  
   - [`verification.py`](#verificationpy)  
   - [`math_equivalence.py`](#math_equivalencepy)  
@@ -181,6 +182,11 @@ Normalizes LaTeX‐style expressions (fractions, radicals, units, spacing) to co
 * Reads cleaned problem–solution pairs from `clean_sentences_2.txt`.
 * For each pair, instantiates `VerifyCotTheorems` and calls `find_first_mistake()`.
 * Logs the sentence index of the first logical error.
+
+---
+### `paper.pdf `
+
+* Contains a summary of the project as a paper.
 
 ---
 
