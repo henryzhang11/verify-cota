@@ -1,0 +1,4 @@
+google-genai
+spacy
+datasets
+google-cloud-aiplatform
