@@ -1,6 +1,6 @@
 # Math Solution Verification Pipeline
 
-A modular pipeline for loading math problems, generating and verifying solutions with a language model (Vertex AI), and identifying incorrect or logically flawed solution steps. Designed to work with the Hendrycks MATH benchmark.
+A modular pipeline for loading math problems, generating and verifying solutions with a language model (Vertex AI), and identifying incorrect or logically flawed solution steps. Designed to work with language-model generated math solutions.
 
 ---
 
